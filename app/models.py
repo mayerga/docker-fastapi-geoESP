@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String
-from api.database import Base
+from app.database import Base
 
-class Entidad(Base):
+class Lugar(Base):
     __tablename__ = "lugares"
 
     id = Column(Integer, primary_key=True, index=True)

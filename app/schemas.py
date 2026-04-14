@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 
-class Lugar(BaseModel):
+class LugarBase(BaseModel):
     nombre: str = Field(..., example="Teide")
     comunidad: str = Field(..., example="Canarias")
     altitud: int = Field(..., description="Altitud en metros, debe ser un número entero")

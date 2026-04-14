@@ -1,0 +1,14 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Variables de entorno (seguridad)
+.env
+
+# Docker logs
+*.log
